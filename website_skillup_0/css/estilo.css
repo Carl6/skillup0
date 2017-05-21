@@ -7,10 +7,6 @@
   margin: 0 !important;
 }
 
-.container{
-  padding: 0 !important;
-  margin: 0 !important;
-}
 
 .container-fluid{
   padding: 0 !important;
@@ -112,7 +108,12 @@ footer{
 }
 .logo{
 padding-top: 20px;
-max-width: 150px;
+max-width: 250px;
+
+}
+.logo-mini{
+padding-top: 20px;
+max-width: 100px;
 
 }
 
@@ -136,6 +137,7 @@ max-width: 150px;
 
 .Pilares{
   min-height: 400px;
+  background-color: lightgray;
 
 }
 
@@ -181,18 +183,24 @@ max-width: 150px;
 
 
 /* amazing team de agency boostrap*/
-.bg-light-gray {
-  background-color: blue;
-}
-.contact-color{
-  background-color: green;
-  width: 100%;
-}
+
+
 /* checar mis clases biens, checar llaves, sintaxi */
+
+#team {
+  background-color: lightpink;
+}
+.bg-light-gray{
+  background-color: lightgray;
+}
+.container{
+  align-content: center;
+}
 .team-member {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
@@ -200,24 +208,28 @@ max-width: 150px;
 ul.social-buttons {
   margin-bottom: 0;
 }
+
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: blue;
   height: 40px;
   width: 40px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: white;
+  color: red;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: red;
+}
+
 }
 .btn:focus,
 .btn:active,
@@ -227,13 +239,20 @@ ul.social-buttons li a:active {
 }
 
 /*contact de agency boostrap*/
-
+.contact-color{
+  background-color: lightgreen;
+  width: 100%;
 }
-section#contact {
-  background-color: #222222;
+#contact {
+  background-color: black;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.impact-hub{
+  max-width: 350px;
+
 }
 section#contact .section-heading {
   color: white;
@@ -285,6 +304,7 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
+  background-color: lightgray;
   padding: 25px 0;
   text-align: center;
 }
@@ -314,6 +334,10 @@ section {
     margin-bottom: 30px;
 }
 
+#carousel{
+  background-color: lightyellow;
+}
+
 /*-------------------------------*/
 /*    Carousel Fade Transition   */
 /*-------------------------------*/
@@ -337,7 +361,7 @@ section {
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: pink;
   border: none;
 }
 #fade-quote-carousel blockquote {
