@@ -63,6 +63,9 @@ li{
 .pTop{
   padding-top: 6px;
 }
+.margin-all{
+  margin: 30px 30px 0 30px;
+}
 
 .floatR{
   float: right;
@@ -375,3 +378,10 @@ section {
     border-radius: 100px;
 }
 /*  nav var hover down  */
+body{
+    padding:10px;
+}
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
